@@ -16,6 +16,11 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.clock{
+    position: absolute;
+    top: 120px;
+    right: 200px;
+}
 .clock-face {
     width: 270px;
     height: 270px;
@@ -46,8 +51,8 @@ html, body {
 .hour-hand{
     width: 4px;
     height: 40px;
-    top: 45%;
-    left: 49.85%;
+    top: 100px;
+    left: 49%;
     background: #000;
     position: absolute;
     transform-origin: 50% 100%;
@@ -56,7 +61,7 @@ html, body {
 .min-hand{
     width: 4px;
     height: 60px;
-    top: 42.70%;
+    top: 82px;
     left: 49.85%;
     background: #000;
     position: absolute;
@@ -66,9 +71,9 @@ html, body {
  .second-hand{
     width: 2px;
     height: 65px;
-    top: 42%;
+    top: 75px;
     left: 49.95%;
-    background: #000;
+    background: red;
     position: absolute;
     transform-origin: 50% 100%;
     /* animation: clockwise-seconds infinite 60s steps(60);*/
